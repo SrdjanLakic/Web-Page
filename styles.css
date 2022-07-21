@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  font-family: 'Montserrat', sans-serif;
+}
+.landing {
+  min-height: 100vh;
+  background-image: url('cover.jpg');
+  background-size: cover;
+  padding: 0rem 5rem;
+}
