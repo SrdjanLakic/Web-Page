@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 main {
-  font-family: 'Montserrat', sans-serif;
-  color: aliceblue;
+  font-family: 'Edu TAS Beginner', cursive;
+  color: brown;
 }
 .landing {
   min-height: 100vh;
-  background-image: url('cover.jpg');
+  background-image: url('4k.jpg');
   background-size: cover;
   padding: 0rem 5rem;
 }
@@ -26,4 +26,20 @@ nav {
 }
 .nav-links li {
   padding-left: 5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#logo {
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
 }
