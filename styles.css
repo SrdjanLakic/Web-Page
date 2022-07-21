@@ -5,10 +5,25 @@
 }
 main {
   font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
 }
 .landing {
   min-height: 100vh;
   background-image: url('cover.jpg');
   background-size: cover;
   padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  padding-left: 5rem;
 }
