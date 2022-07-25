@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 main {
-  font-family: "Edu TAS Beginner", cursive;
+  font-family: 'Edu TAS Beginner', cursive;
 }
 .landing {
   min-height: 100vh;
-  background-image: url("4k.jpg");
+  background-image: url('4k.jpg');
   background-size: cover;
   padding: 0rem 5rem;
 }
@@ -32,7 +32,7 @@ nav {
 }
 
 #logo {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   font-weight: lighter;
   font-size: 2rem;
 }
@@ -42,7 +42,7 @@ nav {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   font-size: 2rem;
   color: aliceblue;
 }
@@ -58,7 +58,7 @@ nav {
   align-items: center;
 }
 .slider {
-  background-image: url("cover.jpg");
+  background-image: url('cover.jpg');
   position: fixed;
   top: 0;
   left: 0;
@@ -68,7 +68,7 @@ nav {
 }
 .intro-text {
   color: rgb(12, 70, 120);
-  font-family: "Edu TAS Beginner", cursive;
+  font-family: 'Edu TAS Beginner', cursive;
   font-size: 2.5rem;
 }
 .hide {
@@ -79,4 +79,13 @@ nav {
 .hide span {
   transform: translateY(100%);
   display: inline-block;
+}
+.section__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin: 0 12rem;
+}
+.w3-circle {
+  width: 100%;
 }
