@@ -80,12 +80,23 @@ nav {
   transform: translateY(100%);
   display: inline-block;
 }
+.section {
+  padding: 1rem;
+}
+.section__description {
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: xx-large;
+}
 .section__header {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: x-large;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   margin: 0 12rem;
+  margin-top: 3rem;
 }
-.w3-circle {
+.about__img {
   width: 100%;
 }
