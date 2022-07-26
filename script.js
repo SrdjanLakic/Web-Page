@@ -15,7 +15,6 @@ timeLine.fromTo(
 );
 
 const initialCoords = header.getBoundingClientRect();
-console.log(initialCoords.top);
 window.addEventListener('scroll', function () {
   console.log(window.scrollY);
   if (window.scrollY > initialCoords.bottom) {
