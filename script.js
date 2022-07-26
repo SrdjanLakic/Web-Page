@@ -16,12 +16,19 @@ timeLine.fromTo(
 
 const initialCoords = header.getBoundingClientRect();
 window.addEventListener('scroll', function () {
-  console.log(window.scrollY);
   if (window.scrollY > initialCoords.bottom) {
     nav.classList.add('sticky');
-
     nav.style.width = '100%';
   } else {
     nav.classList.remove('sticky');
   }
+});
+
+document.querySelectorAll('.nav__link').forEach(function (el) {
+  el.addEventListener('click', function (e) {
+    console.log('LINK');
+    const id = this.getAttribute('href');
+    console.log(id);
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  });
 });
