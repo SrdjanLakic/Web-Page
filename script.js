@@ -2,6 +2,7 @@ const timeLine = gsap.timeline({ defaults: { ease: 'power1.out' } });
 const header = document.querySelector('header');
 const section1 = document.querySelector('#section--1');
 const nav = document.querySelector('.nav');
+const navLinks = document.querySelector('.nav__links');
 
 timeLine.to('.text', { y: '0%', duration: 2, stagger: 0.25 });
 timeLine.to('.slider', { y: '-100%', duration: 2, delay: 1 });
@@ -24,11 +25,10 @@ window.addEventListener('scroll', function () {
   }
 });
 
-document.querySelectorAll('.nav__link').forEach(function (el) {
-  el.addEventListener('click', function (e) {
-    console.log('LINK');
-    const id = this.getAttribute('href');
-    console.log(id);
+navLinks.addEventListener('click', function (e) {
+  e.preventDefault();
+  if (e.target.classList.contains('nav__link')) {
+    const id = e.target.getAttribute('href');
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-  });
+  }
 });

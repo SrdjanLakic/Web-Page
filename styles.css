@@ -24,12 +24,12 @@ main {
   background-color: rgba(160, 178, 182, 0.95);
   color: black;
 }
-.nav-links {
+.nav__links {
   display: flex;
   align-items: center;
   list-style: none;
 }
-.nav-links li {
+.nav__links li {
   font-size: 2rem;
   cursor: pointer;
   padding: 0.8rem 2.5rem;
