@@ -97,6 +97,7 @@ header {
   padding: 1rem;
 }
 .section__description {
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,5 +122,12 @@ header {
   background-color: rgba(160, 178, 182, 0.95);
 }
 .social__icons {
+  font-size: xx-large;
   color: black;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  padding: 2rem 2rem;
+  cursor: pointer;
 }
