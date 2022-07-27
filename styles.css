@@ -109,3 +109,6 @@ header {
 .about__img {
   width: 100%;
 }
+#section--3 {
+  background-color: rgba(160, 178, 182, 0.95);
+}
