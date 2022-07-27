@@ -9,6 +9,7 @@ main {
 .landing {
   min-height: 100vh;
   background-size: cover;
+  background-image: linear-gradient(120deg, #7f8d90ea, #fffffe);
 }
 header {
   background-color: rgba(160, 178, 182, 0.95);
@@ -55,7 +56,7 @@ header {
   color: black;
 }
 .intro {
-  background: rgb(97, 123, 144);
+  background-image: url('4k.jpg');
   position: fixed;
   top: 0;
   left: 0;
@@ -75,12 +76,15 @@ header {
   transform: translateY(100%);
 }
 .intro-text {
-  color: rgb(12, 70, 120);
+  background-image: url('cover.jpg');
   font-family: 'Edu TAS Beginner', cursive;
   font-size: 2.5rem;
 }
+.text {
+  color: rgb(181, 183, 185);
+}
 .hide {
-  background: rgb(97, 123, 144);
+  background-image: url('4k.jpg');
   overflow: hidden;
 }
 
