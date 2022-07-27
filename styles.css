@@ -8,8 +8,10 @@ main {
 }
 .landing {
   min-height: 100vh;
-  background-image: url('4k.jpg');
   background-size: cover;
+}
+header {
+  background-color: rgba(160, 178, 182, 0.95);
 }
 .nav {
   font-size: x-large;
@@ -17,7 +19,7 @@ main {
   align-items: center;
   justify-content: space-between;
   min-height: 10vh;
-  color: aliceblue;
+  color: black;
 }
 .nav.sticky {
   position: fixed;
@@ -50,7 +52,7 @@ main {
   transform: translate(-50%, -30%);
   font-family: 'Lobster', cursive;
   font-size: 2rem;
-  color: aliceblue;
+  color: black;
 }
 .intro {
   background: rgb(97, 123, 144);
