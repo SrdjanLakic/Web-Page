@@ -97,6 +97,9 @@ header {
   padding: 1rem;
 }
 .section__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Edu TAS Beginner', cursive;
   font-size: xx-large;
 }
@@ -116,4 +119,7 @@ header {
 #section--3 {
   height: 20rem;
   background-color: rgba(160, 178, 182, 0.95);
+}
+.social__icons {
+  color: black;
 }
