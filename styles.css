@@ -114,5 +114,6 @@ header {
   width: 100%;
 }
 #section--3 {
+  height: 20rem;
   background-color: rgba(160, 178, 182, 0.95);
 }
