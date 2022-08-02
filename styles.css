@@ -132,7 +132,15 @@ header {
 }
 .git__hub {
   color: black;
+  transition: color 0.2s;
 }
 .git__hub:hover {
+  color: rgb(63, 62, 62);
+}
+.linked__in {
+  color: black;
+  transition: color 0.2s;
+}
+.linked__in:hover {
   color: rgb(63, 62, 62);
 }
