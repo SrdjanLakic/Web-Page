@@ -28,6 +28,7 @@ header {
   color: black;
 }
 .nav__links {
+  color: black;
   display: flex;
   align-items: center;
   list-style: none;
@@ -38,7 +39,9 @@ header {
   padding: 0.8rem 2.5rem;
   border-radius: 3rem;
 }
-
+.nav__link {
+  color: black;
+}
 .logo {
   margin-left: 3rem;
   font-family: 'Lobster', cursive;
@@ -122,7 +125,7 @@ header {
   background-color: rgba(160, 178, 182, 0.95);
 }
 .social__icons {
-  font-size: xx-large;
+  font-size: 50px;
   color: black;
   display: flex;
   align-items: center;

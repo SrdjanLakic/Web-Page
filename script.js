@@ -32,3 +32,5 @@ navLinks.addEventListener('click', function (e) {
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
   }
 });
+
+navLinks.addEventListener('mouse');
