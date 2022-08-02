@@ -129,5 +129,7 @@ header {
   list-style: none;
   justify-content: space-around;
   padding: 2rem 2rem;
-  cursor: pointer;
+}
+.git__hub {
+  color: black;
 }
