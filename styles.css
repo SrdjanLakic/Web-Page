@@ -133,3 +133,6 @@ header {
 .git__hub {
   color: black;
 }
+.git__hub:hover {
+  color: rgb(63, 62, 62);
+}
