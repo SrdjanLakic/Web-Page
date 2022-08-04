@@ -130,8 +130,8 @@ header {
   display: flex;
   align-items: center;
   list-style: none;
-  justify-content: space-around;
-  padding: 2rem 2rem;
+  justify-content: center;
+  margin: 2rem 2rem;
 }
 .git__hub {
   color: black;
@@ -146,4 +146,11 @@ header {
 }
 .linked__in:hover {
   color: rgb(63, 62, 62);
+}
+.email {
+  font-size: 30px;
+  display: grid;
+
+  align-items: center;
+  justify-content: center;
 }
