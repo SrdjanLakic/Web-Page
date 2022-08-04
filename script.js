@@ -32,14 +32,17 @@ navLinks.addEventListener('click', function (e) {
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
   }
 });
-
-nav.addEventListener('mouseover', function (e) {
+const headerHover = function (e) {
   if (e.target.classList.contains('nav__link')) {
     const link = e.target;
     const siblings = link.closest('.nav').querySelectorAll('.nav__link');
 
     siblings.forEach((el) => {
-      if (el !== link) el.style.opacity = 0.5;
+      if (el !== link) el.style.opacity = this;
     });
   }
-});
+};
+
+nav.addEventListener('mouseover', headerHover.bind(0.5));
+
+nav.addEventListener('mouseout', headerHover.bind(1));
