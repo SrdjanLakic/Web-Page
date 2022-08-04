@@ -121,17 +121,24 @@ header {
   width: 100%;
 }
 #section--3 {
-  height: 20rem;
+  padding: 5rem 3rem;
   background-color: rgba(160, 178, 182, 0.95);
 }
 .social__icons {
   font-size: 50px;
   color: black;
-  display: flex;
-  align-items: center;
   list-style: none;
-  justify-content: center;
-  margin: 2rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
+.social__item {
+  margin-right: 4rem;
+}
+
+.social__link {
+  font-size: 1.6rem;
+  text-decoration: none;
 }
 .git__hub {
   color: black;
