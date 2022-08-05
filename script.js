@@ -47,10 +47,19 @@ nav.addEventListener('mouseover', headerHover.bind(0.5));
 
 nav.addEventListener('mouseout', headerHover.bind(1));
 
-const revealSection = function (entries, observer) {};
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+  console.log(entry);
+  if (!entry.isIntersecting) return;
+  entry.target.classList.remove('section--hidden');
+};
 
-const observer = new IntersectionObserver(revealSection, {});
+const observer = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.15,
+});
 
 sections.forEach(function (section) {
   observer.observe(section);
+  section.classList.add('section--hidden');
 });
