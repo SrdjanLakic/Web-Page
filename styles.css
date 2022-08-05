@@ -98,6 +98,8 @@ header {
 
 .section {
   padding: 1rem;
+  border-top: 1px solid #ddd;
+  transition: transform 1s, opacity 1s;
 }
 .section__description {
   color: black;
