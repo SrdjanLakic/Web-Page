@@ -1,6 +1,6 @@
 const timeLine = gsap.timeline({ defaults: { ease: 'power1.out' } });
 const header = document.querySelector('header');
-const section1 = document.querySelector('#section--1');
+const sections = document.querySelectorAll('.section');
 const nav = document.querySelector('.nav');
 const navLinks = document.querySelector('.nav__links');
 
@@ -46,3 +46,11 @@ const headerHover = function (e) {
 nav.addEventListener('mouseover', headerHover.bind(0.5));
 
 nav.addEventListener('mouseout', headerHover.bind(1));
+
+const revealSection = function (entries, observer) {};
+
+const observer = new IntersectionObserver(revealSection, {});
+
+sections.forEach(function (section) {
+  observer.observe(section);
+});
