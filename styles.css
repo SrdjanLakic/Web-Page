@@ -129,11 +129,11 @@ header {
   color: black;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 5rem 0;
 }
 .social__item {
-  margin-right: 4rem;
+  padding: 0 5rem;
 }
 
 .social__link {
@@ -157,7 +157,5 @@ header {
 .email {
   font-size: 30px;
   display: grid;
-
-  align-items: center;
-  justify-content: center;
+  align-items: inherit;
 }
