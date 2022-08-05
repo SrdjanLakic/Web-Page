@@ -100,6 +100,7 @@ header {
   padding: 1rem;
 }
 .section__description {
+  color: rgb(83, 68, 68);
   margin-top: 3rem;
   display: flex;
   justify-content: center;
@@ -156,6 +157,10 @@ header {
 }
 .email {
   font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
   display: grid;
-  align-items: inherit;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }
